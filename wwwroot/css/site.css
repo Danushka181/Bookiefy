@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+/* Typography */
+html {
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #333; /* Dark Gray */
+    background-color: #f8f8f8; /* Light Gray */
+}
+
+h1, h2, h3 {
+    color: #e43c5c; /* Red color for headings */
+}
+
+/* Buttons */
+input[type="text"],
+input[type="submit"] {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+input[type="text"] {
+    border: 1px solid #ccc; /* Light Gray */
+}main{
+     h1
+    background: #000;
+    padding: 20px;
+    border-radius: 0px 20px 0px 20px;
+    {
+}
+ }
+
+input[type="submit"] {
+    background-color: #e43c5c; /* Red */
+    color: #fff;
+    cursor: pointer;
+}
+
+/* Tables */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid #e0e0e0; /* Lighter Gray */
+    color: #333; /* Dark Gray */
+}
+
+th {
+    background-color: #e43c5c; /* Red */
+    color: #0e0b0b;
+}
+
+tr:nth-child(even) {
+    background-color: #f0f0f0; /* Lighter Gray */
+}
+
+/* Links */
+a {
+    color: #0074D9; /* Accent Color */
+    text-decoration: none;
+}
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+/* Margin */
+body {
+    margin-bottom: 60px;
+}
+
